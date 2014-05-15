@@ -1,0 +1,79 @@
+<h1>Base Website Framework</h1>
+
+<p>Minimal front-end template built using Foundation 5 and made to work with IE8 (F3 fallback).</p>
+
+<p>=====================</p>
+
+<h2>Framework</h2>
+
+<ul>
+  <li>Foundation 5.2.2</li>
+</ul>
+
+<h2>Style</h2>
+
+<ul>
+  <li>normalize.scss</li>
+  <li>style.scss </li>
+</ul>
+
+<h2>Vendor Scripts</h2>
+
+<ul>
+  <li>jQuery v.2.1.1</li>
+  <li>Modernizr v2.7.2</li>
+</ul>
+
+<h2>Legacy</h2>
+
+<ul>
+  <li>Foundation 3.2.5</li>
+  <li>JQuery v.1.9.0</li>
+  <li>Modernizr v2.6.2</li>
+</ul>
+
+<h2>Compiler</h2>
+<ul>
+  <li>Hammer </li>
+</ul>
+
+<h2>Folder Structure</h2>
+
+<pre><code>
+framework/ 
+| 
+|– assets/ 
+|   |– css/						# Styles
+|		|– components/			# F5 styles
+|		|– legacy/				# F3 styles
+|		|– normalize.scss			# Reset
+|		|– style.scss				# Global styles and imports
+|   |– img/						# Global elements
+|		|– icons/					# favicons
+|		|– ui/					# UI elements
+|   |– js/						# Scripts 
+|		|– foundation/			# F5 scripts
+|		|– legacy/				# F3 scripts
+|		|– vendor/				# Original vendor scripts
+|		|– lib.js					# Used Foundation scripts
+|		|– main.js				# Custom
+|		|– vendor.js				# Compiled vendor scripts
+| 
+|– Built/ 						# Static site rendered by Hammer
+|
+|– includes/						# Template snippets
+|   |– _icons.html/				# Favicons
+|   |– _meta.html/				# Opengraph info 
+|   |– _scripts-footer.html/		# Script links in footer
+|   |– _scripts-head.html/		# Script links in header
+|   |– _styles.html/				# CSS links
+| 
+|– media/ 						# Content assets
+|   |– files/						# All files
+|   |– images/					# All images
+|   |– videos/					# All videos
+| 
+|– index.html/ 					# UI Toolkit
+| 
+|– template.html/ 				# Base page layout
+</code></pre>

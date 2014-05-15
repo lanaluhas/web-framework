@@ -1,0 +1,27 @@
+		<!-- LIB ============================================================== -->
+		<!-- Foundation 3 for IE 8 and earlier -->
+		<!--[if lt IE 9]>
+			<script src="assets/js/legacy/foundation-shim.js"></script>
+			<script src="assets/js/legacy/foundation.min.js"></script>
+			<script src="assets/js/legacy/app.js"></script>
+		<![endif]-->
+
+		<!-- Foundation 5 for IE 9 and later -->
+		<!--[if gt IE 8]><!-->
+		<script src="assets/js/lib.js"></script>
+		<script>
+			if (!$('html').hasClass('lt-ie9')) {
+				$(document).foundation();
+			}
+		</script>
+		<!--<![endif]-->
+		<!-- ================================================================== -->
+
+		<!-- SCRIPTS ========================================================== -->
+		<script src="assets/js/vendor.js"></script>
+		<script src="assets/js/main.js"></script>
+		<!-- ================================================================== -->
+
+		<!-- ANALYTICS ======================================================== -->
+		<script></script>
+		<!-- ================================================================== -->
